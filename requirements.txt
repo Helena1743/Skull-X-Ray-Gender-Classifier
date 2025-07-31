@@ -34,7 +34,7 @@ requests==2.32.4
 rich==14.0.0
 setuptools>=40.8.0,<70.0.0
 six==1.17.0
-tensorboard==2.16.2
+tensorboard==2.14.0
 tensorboard-data-server==0.7.2
 tensorflow==2.14.0
 tensorflow-io-gcs-filesystem==0.31.0
