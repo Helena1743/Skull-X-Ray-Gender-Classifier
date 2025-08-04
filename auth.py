@@ -4,7 +4,7 @@ auth = Blueprint('auth', __name__)
 
 # Your fixed credentials
 USERNAME = 'Admin'
-PASSWORD = '12345678'
+PASSWORD = 'BPAdmin1234***'
 
 @auth.route('/login', methods=['GET', 'POST'])
 def login():
