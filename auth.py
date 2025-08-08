@@ -14,7 +14,7 @@ def login():
 
         if input_username == USERNAME and input_password == PASSWORD:
             session['logged_in'] = True
-            return redirect(url_for('main.index'))
+            return redirect(url_for('main.home'))
         else:
             flash('Invalid username or password', 'error')
             return redirect(url_for('auth.login'))
